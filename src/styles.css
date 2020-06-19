@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+main {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2.title {
+    text-align: center;
+}
+.wrapper{
+    min-height: 80vh;
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-around;
+    align-content: space-around;
+}
+.card {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card h3 {
+    text-align: center;
+}
+.card img {
+    padding-bottom: 5px;
+}
+.hidden {
+    color: transparent;
+}

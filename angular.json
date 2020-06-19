@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "moviefavs"
+    }
+  },
+  "defaultProject": "moviefavs",
+  "cli": {
+    "analytics": false
+  }
 }
